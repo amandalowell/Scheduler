@@ -18,31 +18,15 @@ console.log(firebase); //
 
 // function to calculate train time 
 
-var mockTrains = [
-  {
-    name: "red",
-    destination: "Dallas",
-    firstTrainTime: 18*60*60*1000, //format for miliseconds, 1800
-    frequency: 5*60*1000 //5 min
+// var mockTrains = [
+ //{
+ //   name: "red",
+   // destination: "Dallas",
+    //firstTrainTime: 18*60*60*1000, //format for miliseconds, 1800
+    //frequency: 5*60*1000 //5 min
 
-  },
-
-  {
-    name: "red",
-    destination: "Dallas",
-    firstTrainTime: 1800,
-    frequency: 5 //in minutes
-
-  },
-
-  {
-    name: "red",
-    destination: "Dallas",
-    firstTrainTime: 1800,
-    frequency: 5 //in minutes
-
-  },
-]
+  //}
+//]
 
 // we have ^ trains with their start time
 // we know start time and we know current time and frequency
@@ -79,7 +63,7 @@ var firstTrainTime = "";
 var frequency = 0;
 
 
-// FUNCTIONS + EVENTS
+
 $("#addTrain").on("click", function() {
 
   trainName = $('#nameInput').val().trim();
@@ -99,7 +83,7 @@ $("#addTrain").on("click", function() {
     frequency: frequency
   });
 
-    return false;
+  
 });
 
 
