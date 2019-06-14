@@ -1,0 +1,1 @@
+This is a train scheduler app that incorporates Firebase to host arrival and departure data. This app also gives data on the names, destinations, and frequency of Trains. 
