@@ -14,21 +14,7 @@
 
 console.log(firebase); //
 
-//var database = firebase.database(); 
-
-// function to calculate train time 
-
-// var mockTrains = [
- //{
- //   name: "red",
-   // destination: "Dallas",
-    //firstTrainTime: 18*60*60*1000, //format for miliseconds, 1800
-    //frequency: 5*60*1000 //5 min
-
-  //}
-//]
-
-// we have ^ trains with their start time
+//we have ^ trains with their start time
 // we know start time and we know current time and frequency
 //we need next arrival time
 //need to push data to data base (using database variable)
@@ -52,6 +38,22 @@ console.log(firebase); //
 //}
 
 //countTrainTime(mockTrains[0]);
+
+
+//var database = firebase.database(); 
+
+// function to calculate train time 
+
+// var mockTrains = [
+ //{
+ //   name: "red",
+   // destination: "Dallas",
+    //firstTrainTime: 18*60*60*1000, //format for miliseconds, 1800
+    //frequency: 5*60*1000 //5 min
+
+  //}
+//]
+
 
 
 
